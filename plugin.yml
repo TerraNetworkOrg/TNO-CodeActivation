@@ -1,0 +1,11 @@
+name: CodeActivation
+main: TerraNetworkOrg.CodeActivation.CodeActivation
+version: 1.0.0
+author: TerraNetworkOrg
+dev-url: http://dev.bukkit.org/server-mods/tno-codeactivation/
+depend: [Vault]
+commands:
+  codeactivation:
+    description: Lists plugin details
+    usage: /<command>
+    aliases: [ca,code]
