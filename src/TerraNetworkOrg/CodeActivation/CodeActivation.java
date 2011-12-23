@@ -275,7 +275,7 @@ public static void LogInfo(String Message) {
 						
 					} else {
 						
-						player.sendMessage(ChatColor.RED+"Use a valid parameter: activate, list");
+						player.sendMessage(ChatColor.BLUE+"Use a valid parameter: activate, list, regenerate, reload");
 						return true;
 						
 					}
@@ -320,7 +320,7 @@ public static void LogInfo(String Message) {
 						
 					} else {
 						
-						player.sendMessage(ChatColor.RED+"Use a valid parameter: activate, list");
+						player.sendMessage(ChatColor.BLUE+"Use a valid parameter: activate, list, regenerate, reload");
 						return true;
 						
 					}
